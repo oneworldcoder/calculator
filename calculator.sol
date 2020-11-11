@@ -3,8 +3,11 @@ pragma experimental ABIEncoderV2;
 
 contract Calculator {
 
-  uint result= 0;
-
+  uint result= 1;
+  
+  function calculator() public {
+      
+  }
 
   function getResult() public view returns (uint) {
     return result;
