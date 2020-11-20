@@ -3,30 +3,30 @@ pragma experimental ABIEncoderV2;
 
 contract Calculator {
 
-  uint result;
+  int result;
   
 
-  function enterNumber(uint num) public {
+  function enterNumber(int num) public {
       result = num;
   }
 
-  function getResult() public view returns (uint) {
+  function getResult() public view returns (int) {
     return result;
   }
 
-  function addToNumber(uint num) public {
+  function addToNumber(int num) public {
     result += num;
   }
 
-  function substractNumber(uint num) public {
+  function substractNumber(int num) public {
     result -= num;
   }
 
-  function multiplyWithNumber(uint num) public {
+  function multiplyWithNumber(int num) public {
     result *= num;
   }
 
-  function divideByNumber(uint num) public {
+  function divideByNumber(int num) public {
     result /= num;
   }
 
