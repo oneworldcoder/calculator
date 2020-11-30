@@ -5,7 +5,6 @@ contract Calculator {
 
   int result;
   
-
   function enterNumber(int num) public {
       result = num;
   }
